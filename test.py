@@ -5,6 +5,6 @@ print(torch.cuda.is_available())
 model = whisper.load_model("turbo")
 
 
-audio = "sonho.m4a"
+audio = "audio.mp3"
 result = model.transcribe(audio, verbose=True)
 print(result["text"])
