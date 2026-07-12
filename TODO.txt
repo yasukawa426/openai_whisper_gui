@@ -1,0 +1,4 @@
+[ ] Transcribe audio in another thread to not lock up the UI
+[ ] Add a progress bar to show the progress of the transcription and stop the user from clicking the transcribe button again
+[ ] Save the transcribed text to a file (desktop? or same directory as the audio file? - Maybe when it finishes transcribing we open another window with the result plus an option to save to a location or just close and discard) 
+[ ] Make UI responsive and not fugly
