@@ -1,8 +1,7 @@
 [x] Save the transcribed text to a file (desktop? or same directory as the audio file? - Maybe when it finishes transcribing we open another window with the result plus an option to save to a location or just close and discard) 
-[ ] Add option to record audio instead of choosing file
+[ ] Add option to record audio instead of choosing file ----- Record button (changes to stop when recording) -> recording timer (e.g. 00:12) -> play button -> transcribe
 [ ] Enable transcribe btn only after choosing a file
 [ ] Add a option to play the selected audio file 
 [ ] Transcribe audio in another thread to not lock up the UI and add a progress bar to show the progress of the transcription and stop the user from clicking any buttons during
 [ ] Unspaghetti the code (separate resposabilities, add doc/comments, refactoring stuff in general - ui/controller/transcriber)
 [ ] Make UI responsive and not fugly
-
